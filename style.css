@@ -1,0 +1,52 @@
+/* HEADER */
+.header {
+    -fx-background-color: #f4b400;
+}
+
+.titulo {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* MENU */
+.menu {
+    -fx-background-color: #5c5c5c;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    -fx-background-color: #f4b400;
+    -fx-padding: 10;
+}
+
+/* CARD */
+.card {
+    -fx-background-color: white;
+    -fx-padding: 15;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+    /* SOMBRA */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 2, 2);
+
+    -fx-cursor: hand;
+}
+
+/* HOVER */
+.card:hover {
+    -fx-background-color: #f5f5f5;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/* TEXTO */
+.card-titulo {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.card-sub {
+    -fx-text-fill: gray;
+    -fx-font-size: 11px;
+}
